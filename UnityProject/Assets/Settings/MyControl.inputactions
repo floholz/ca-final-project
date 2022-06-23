@@ -1,0 +1,51 @@
+{
+    "name": "MyControl",
+    "maps": [
+        {
+            "name": "Animation",
+            "id": "5bf667c7-a90f-4dac-a779-e2a73f0af523",
+            "actions": [
+                {
+                    "name": "Any",
+                    "type": "Button",
+                    "id": "950bfe26-d6d4-40b7-8739-06a38d57a088",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "40cd509f-c7b6-415e-bc3c-de8355ae411e",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KBM",
+                    "action": "Any",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KBM",
+            "bindingGroup": "KBM",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
